@@ -7,6 +7,7 @@ import Bai3 from './components/Bai3'
 import Bai4 from './components/Bai4'
 import Bai5 from './components/Bai5'
 import Bai6 from './components/Bai6'
+import TodoList from './components/TodoList'
 
 // export default function App() {
 //   const [active,setActive] = useState<boolean>(false)
@@ -92,6 +93,7 @@ export default class App extends Component<Props, State> {
         <Bai6 mes={this.state.mes}/>
         <button onClick={this.handleClickChange}>Change props</button>
        </div>
+       <TodoList></TodoList>
       </div>
     )
   }
